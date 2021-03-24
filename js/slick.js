@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
     $('.infoSlider').on('init', function(event, slick){
-        var $items = slick.$dots.find('li');
+        var $items = slick.$dots.find('ul');
         $items.remove();
        
      });
