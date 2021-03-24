@@ -131,7 +131,7 @@
   z-index: -30;
 }
 
-.dotsNone li {
+.dotsNone {
   height: 0;
 }
 
