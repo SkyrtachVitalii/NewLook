@@ -10,6 +10,7 @@ $(document).ready(function(){
         dots: true,
         swipe: true,
         swipeToSlide: true,
-        arrows: false
+        arrows: false,
+        dotsClass: "dotsNone"
     });
   });
