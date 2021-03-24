@@ -101,6 +101,9 @@
   position: relative;
   width: 600px;
 }
+.infoSlider ul {
+  display: none;
+}
 .infoSlider__item {
   background-color: burlywood;
 }

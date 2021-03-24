@@ -106,6 +106,9 @@
 .infoSlider {
     position: relative;
     width: 600px;
+    & ul{
+        display: none;
+    }
     &__item{
         background-color: burlywood;
     }
