@@ -120,7 +120,9 @@
   color: #313131;
 }
 .infoSlider .slick-next, .infoSlider .slick-prew, .infoSlider .slick-dots {
-  display: none;
+  position: absolute;
+  top: 3px;
+  z-index: -30;
 }
 
 .dotsNone li {
