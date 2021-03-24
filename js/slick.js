@@ -1,10 +1,13 @@
-$('.infoSlider').on('init', function(event, slick){
-    var $items = slick.$dots.find('li');
-    $items.addClass('transparent-circle');
-    $items.find('button').remove();
- });
+
 
 $(document).ready(function(){
+
+    $('.infoSlider').on('init', function(event, slick){
+        var $items = slick.$dots.find('li');
+        $items.addClass('transparent-circle');
+        $items.find('button').remove();
+     });
+
     $('.infoSlider').slick({
         centerMode: true,
         slidesToShow: 1,
