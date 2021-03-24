@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.container--header {
+  display: flex;
+  justify-content: space-between;
+}
+.container--spec {
+  display: flex;
+  justify-content: center;
+}
+
+.logo__item {
+  width: 200px;
+  height: auto;
+}
+
+.headInfo {
+  text-align: center;
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  align-items: center;
+}
+.headInfo__item {
+  padding: 20px;
+}
+.headInfo__item--funcItem {
+  display: flex;
+}
+
+.funcItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.funcItem__img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.funcItem__text {
+  margin: 0 auto;
+}
+.funcItem__button {
+  outline: none;
+  border: none;
+  margin: 10px;
+  padding: 10px 25px;
+}
+.funcItem__button:hover {
+  opacity: 0.5;
+  border: black;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mPrice {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 5%;
+}
+.mPrice__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: brown;
+  padding: 10px;
+}
+.mPrice__text {
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 5px;
+}
+
+.infoSlider {
+  position: relative;
+  width: 600px;
+}
+.infoSlider__item {
+  background-color: burlywood;
+}
+.infoSlider__img {
+  width: 100%;
+  height: 400px;
+}
+.infoSlider .slick-dots {
+  bottom: 20px;
+}
+.infoSlider .slick-dots li.slick-active button::before {
+  font-size: 20px;
+  color: black;
+}
+.infoSlider .slick-dots li button::before {
+  font-size: 10px;
+  color: #313131;
+}
+
+.ourSert {
+  padding: 10px;
+  margin: 0 auto;
+}
+.ourSert__item {
+  text-align: center;
+  font-size: 36px;
+}
+
+.ourOffers {
+  padding: 10px;
+}
+.ourOffers__head {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 28px;
+}
+
+.ourOffersCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ourOffersCard__item {
+  width: 23%;
+  margin: 1%;
+}
+
+.card {
+  padding: 5px;
+}
+.card__img {
+  width: 100%;
+}
+.card__text {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */
