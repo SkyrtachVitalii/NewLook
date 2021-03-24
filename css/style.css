@@ -119,7 +119,7 @@
   font-size: 10px;
   color: #313131;
 }
-.infoSlider .slick-next, .infoSlider .slick-prew {
+.infoSlider .slick-next, .infoSlider .slick-prew, .infoSlider .slick-dots {
   display: none;
 }
 
