@@ -112,7 +112,7 @@
   bottom: 20px;
 }
 .infoSlider .slick-dots button {
-  visibility: hidden;
+  font-size: 0;
 }
 .infoSlider .slick-dots li.slick-active button::before {
   font-size: 20px;
