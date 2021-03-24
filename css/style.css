@@ -18,6 +18,10 @@
   display: flex;
   justify-content: center;
 }
+.container--footer {
+  display: flex;
+  justify-content: space-around;
+}
 
 .logo__item {
   width: 200px;
@@ -152,6 +156,85 @@
 .card__text {
   font-size: 18px;
   text-align: justify;
+}
+
+.typesCeilingsButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.typesCeilingsButtons__item {
+  flex: 0 0 18%;
+  margin: 1%;
+  padding: 20px;
+  background-color: brown;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.typesCeilingsButtons__item:hover {
+  opacity: 0.5;
+  transition: all 0.2s;
+}
+
+.calcBlock__heading {
+  text-align: center;
+  font-size: 32px;
+  padding: 10px;
+}
+.calcBlock__text {
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+}
+
+.calculator {
+  display: block;
+  max-width: 0 auto;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #584036;
+  background-color: #688d8d;
+}
+.calculator:hover {
+  opacity: 0.5;
+  transition: all 0.2s;
+}
+
+.footer {
+  background-color: grey;
+}
+
+.phoneF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phoneF__item {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.social__item {
+  margin: 7px;
+}
+.social__img {
+  width: 40px;
+  height: 40px;
+}
+.social__img:hover {
+  opacity: 0.5;
+  transition: all 0.2s;
 }
 
 /*# sourceMappingURL=style.css.map */
