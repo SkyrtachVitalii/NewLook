@@ -9,6 +9,7 @@ $(document).ready(function(){
         infinite: true,
         dots: true,
         swipe: true,
-        swipeToSlide: true
+        swipeToSlide: true,
+        arrows: false
     });
   });
