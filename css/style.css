@@ -119,6 +119,9 @@
   font-size: 10px;
   color: #313131;
 }
+.infoSlider .slick-next, .infoSlider .slick-prew {
+  display: none;
+}
 
 .ourSert {
   padding: 10px;
