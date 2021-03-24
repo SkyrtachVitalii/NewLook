@@ -1,11 +1,10 @@
-
-
 $(document).ready(function(){
 
     $('.infoSlider').on('init', function(event, slick){
-        var $items = slick.$dots.find('ul');
-        $items.remove();
-       
+        let $dotsUl = slick.$dots.find('ul');
+        let $dotsLi = slick.$dots.find('li');
+        $dotsUl.remove();
+        $dotsLi.remove();
      });
 
     $('.infoSlider').slick({
